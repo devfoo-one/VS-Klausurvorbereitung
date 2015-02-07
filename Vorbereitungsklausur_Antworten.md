@@ -91,6 +91,8 @@ running und blocked werden vom Scheduler gesetzt.
 
 *8. Tragen Sie die Begriffe* ***Anwendung, Dienst, Middleware*** *(mehrfache Benennungen möglich) und den Begriff* ***Netzwerk*** *korrekt in das folgende Beispiel einer verteilten Middleware-Lösung ein! Beschreiben Sie kurz **welche** Rolle die Middleware hier hat!*
 
+![](img/aufg08.jpg)
+
 ---
 
 *9. Nach dem Aufruf einer URL erhalten Sie folgende Ausgabe im Browser:*
