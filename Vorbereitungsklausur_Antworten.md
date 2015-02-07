@@ -105,6 +105,8 @@ running und blocked werden vom Scheduler gesetzt.
 
 *um welches Datenformat handelt es sich? Wie kann diese Ausgabe interpretiert werden?*
 
+JSON Format. JavaScript Objekte (Key/Value Paare). URL enthielt warscheinlich Anfrage zu einer bestimmten Person.
+
 ---
 
 *10. In vielen Protokollen und Verschlüsselungsalgorithmen werden kryptographisch sichere Zufallszahlen benötigt.*
