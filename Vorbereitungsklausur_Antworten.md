@@ -85,6 +85,8 @@ running und blocked werden vom Scheduler gesetzt.
 
 *7. Erläutern Sie das Zustandekommen einer* ***Race Condition*** *zwischen mindestens zwei Softwareprozessen anhand eines selbst gewählten Beispiels. Nennen Sie* ***zwei*** *Beispiele für Synchronisationsmechanismen für nebenläufige Prozesse.*
 
+"Ist das Ergebnis einer Ausführung nebenläufiger Prozesse abhängig von der zeitlichen Reihenfolge der Ausführung dieser Prozesse, so beschreibt diese Situation einen kritischen Wettlauf" *[Script Seite 141 - 143]*
+
 ---
 
 *8. Tragen Sie die Begriffe* ***Anwendung, Dienst, Middleware*** *(mehrfache Benennungen möglich) und den Begriff* ***Netzwerk*** *korrekt in das folgende Beispiel einer verteilten Middleware-Lösung ein! Beschreiben Sie kurz **welche** Rolle die Middleware hier hat!*
