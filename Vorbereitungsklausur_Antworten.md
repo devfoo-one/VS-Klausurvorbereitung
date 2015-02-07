@@ -8,6 +8,15 @@ Nebenläufigkeit bedeutet hierbei "Scheinparallelität". Die Prozesse laufen nie
 
 *2. Erläutern Sie das klassische "Two-army problem"* ***und*** *dessen Bedeutung für verteilte Kommunikationssysteme hinsichtlich Zuverlässigkeit und Sicherheit einer Übertragungsstrecke!*
 
+Zwei Armeen wollen über feindliches Gebiet hinweg kommunizieren. Wenn B1 B2 eine Nachricht sendet möchte B1 sicherstellen:
+
+-	das B2 diese erhalten hat
+-	B1 und B2 müssen feststellen können ob W die Nachricht manipuliert hat
+-	dass der Feind diese nicht manipuliert hat
+-	das der Feind deren Inhalt nicht erhalten hat
+
+Das gleiche gilt für jede Übertragung. Man muss sicherstellen dass eine Nachricht genauso beim Sender ankommt wie sie gesendet wurde (z.B. Prüfsumme). Man benötigt eine Bestätigung über korrekten Empfang (Zuverlässigkeit) und die Nachricht darf nicht manipuliert worden sein.
+
 ---
 
 *3. Tragen Sie die Namen der fehlenden* ***drei*** *Layer (Deutsch oder Englisch) des OSI-Schichtenmodells in die folgende Grafik ein! Beschreiben Sie jeweils kurz die Bedeutung* ***dieser drei*** *Layer!*
