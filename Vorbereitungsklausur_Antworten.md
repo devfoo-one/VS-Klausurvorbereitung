@@ -138,3 +138,7 @@ JSON Format. JavaScript Objekte (Key/Value Paare). URL enthielt warscheinlich An
 -	*Berechnen Sie* ***n, φ(n)***. *Ein Angreifer müsste* ***φ(n)*** *kennen um den zweiten Schlüssel* ***d*** *zu berechnen. Warum ist das für den Angreifer schwierig/unmöglich?*
 -	*Wie groß ist der Wertebereich der vorliegenden RSA-Funktion?*
 -	*Geben Sie die zurchzuführenden Berechnungen für eine Ver- und Entschlüsselung an, wenn* ***d=31*** *beträgt. (Symbolische Lösung ist ausreichend!)*
+
+*[Crypto ab Seite 72]*
+
+Wertebereich = `M,S e {0,1,2, ... ,n-1} = n-1` *[Crypto Seite 74]*
