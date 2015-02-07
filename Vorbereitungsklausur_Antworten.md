@@ -115,6 +115,22 @@ JSON Format. JavaScript Objekte (Key/Value Paare). URL enthielt warscheinlich An
 -	*für welche Zwecke werden kryptographisch sichere Zufallszahlen benötigt?*
 -	*Welche Möglichkeiten zur Erzeugung kryptographisch sicherer Zufallszahlen gibt es? Was ist bei ihrem Einsatz zu beachten?*
 
+*[Crypto ab Seite 79]*
+
+-	Anforderungen
+	-	nicht verhersagbar
+	-	"wirklich" zufällig
+	-	müssen statistische Eigenschaften erfüllen *siehe [Crypto Seite 80]*
+-	Zweck
+	-	Initialisierungsvektoren von Verschlüsselungsalgorithmen
+	-	zufällige Wahl von Master-Schlüsseln
+	-	Erzeugung eines kontinuierlichem Schlüsselstroms für Stromchiffren
+-	Erzeugung *[Crypto Seite 82]*
+	-	spezielle Hardware
+	-	Verwendung von "zufälligen" physikalischen Eingangsgrößen
+		-	Tastatureingaben des Nutzers
+		-	Festplattenaktivität
+
 ---
 
 *11. Für eine RSA-Verschlüsselung seien die Primzahlen* ***p = 19*** *und* ***q = 7*** *sowie* ***e = 7*** *gegeben.*
