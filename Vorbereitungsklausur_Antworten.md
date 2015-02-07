@@ -12,6 +12,12 @@ Nebenläufigkeit bedeutet hierbei "Scheinparallelität". Die Prozesse laufen nie
 
 *3. Tragen Sie die Namen der fehlenden* ***drei*** *Layer (Deutsch oder Englisch) des OSI-Schichtenmodells in die folgende Grafik ein! Beschreiben Sie jeweils kurz die Bedeutung* ***dieser drei*** *Layer!*
 
+Application Layer = In dieser Schicht laufen die Anwendungsprogramme
+
+Transport Layer = Auf und Abbau von Verbindungen, Paketverlust kontrollieren, Aufteilen der Nachricht in kleinere Teile
+
+Network Layer = Vermittlung der Nachricht über beliebig viele Zwischenstationen (Routing)
+
 ---
 
 *4. Beschreiben Sie die **wesentlichen Eigenschaften und Unterschiede** von Threads und Prozessen! Was mach ein Thread im Zustand* ***"running"*** *und was im Zustand* ***"blocked"*** *?*
