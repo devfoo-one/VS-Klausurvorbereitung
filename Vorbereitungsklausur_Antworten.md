@@ -15,7 +15,7 @@ Zwei Armeen wollen über feindliches Gebiet hinweg kommunizieren. Wenn B1 B2 ein
 -	dass der Feind diese nicht manipuliert hat
 -	das der Feind deren Inhalt nicht erhalten hat
 
-Das gleiche gilt für jede Übertragung. Man muss sicherstellen dass eine Nachricht genauso beim Sender ankommt wie sie gesendet wurde (z.B. Prüfsumme). Man benötigt eine Bestätigung über korrekten Empfang (Zuverlässigkeit) und die Nachricht darf nicht manipuliert worden sein.
+Das gleiche gilt für jede Übertragung. Man muss sicherstellen dass eine Nachricht genauso beim Sender ankommt wie sie gesendet wurde (z.B. Prüfsumme). Man benötigt eine Bestätigung über korrekten Empfang (Zuverlässigkeit) und die Nachricht darf nicht manipuliert worden sein. *[Script Seite 192 fff]*
 
 ---
 
