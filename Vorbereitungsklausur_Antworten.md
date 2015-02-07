@@ -18,9 +18,31 @@ Transport Layer = Auf und Abbau von Verbindungen, Paketverlust kontrollieren, Au
 
 Network Layer = Vermittlung der Nachricht über beliebig viele Zwischenstationen (Routing)
 
+*[Script Seite 35-43]*
+
 ---
 
-*4. Beschreiben Sie die **wesentlichen Eigenschaften und Unterschiede** von Threads und Prozessen! Was mach ein Thread im Zustand* ***"running"*** *und was im Zustand* ***"blocked"*** *?*
+*4. Beschreiben Sie die **wesentlichen Eigenschaften und Unterschiede** von Threads und Prozessen! Was macht ein Thread im Zustand* ***"running"*** *und was im Zustand* ***"blocked"*** *?*
+
+Prozess = in Ausführung befindliches Programm, bestehend aus *[Script Seite 87]*
+
+-	einer Folge von Maschinenbefehlen
+-	Inhalt des Stacks
+-	haben einen eigenen Speicherbereich (durch Betriebssystem zugewiesen)
+-	Verwaltungsinformationen die den Bearbeitungszustand beschreiben
+-	Kommunikation zwischen Prozessen erfolgt nur über Nachrichten
+
+Thread = *[Script Seite 98]*
+
+-	eine Ausführungseinheit eines Prozesses mit minimalen Zustandsinformationen
+-	gehören alle zu einem bestimmten Prozess und arbeiten deshalb auf den selben Daten
+
+Jeder Prozess hat seinen eigenen Speicherbereich (Dies wird vom Betriebssystem überwacht) und können untereinander nur über Nachrichten kommunizieren. Prozesse bestehen aus Threads. Threads hingegen werden von bestimmten Prozessen gestartet und teilen sich einen Speicherbereich und arbeiten gemeinsam auf diesem.
+
+-	running = Thread läuft aktiv auf einem Prozessor
+-	blocked = Thread wartet auf ein Ereignis z.B. auf Eingabe
+
+running und blocked werden vom Scheduler gesetzt.
 
 ---
 
