@@ -57,9 +57,29 @@ running und blocked werden vom Scheduler gesetzt.
 
 *5. Beschreiben Sie was passiert, wenn im Browser `http://google.de` eingegeben und die Enter-Taste gedrückt wird. Seien Sie so detailliert wie möglich! In der Erklärung sollten die Begriffe: Client, Server, Port, IP-Adrese, DNS, Socket, TCP, HTML und HTTP vorkommen*
 
+-	IP Adresse zu `google.de` ermitteln
+	-	DNS Auflösung (OS Resolver anfragen)
+	-	Wenn IP nicht im lokalen Cache dann DNS Server anfragen
+	-	bekannter DNS Server (bei DSL Verbindungen vom Provider konfiguriert) wird angefragt
+-	Client öffnet Socket zur zurückgelieferten IP-Adresse.
+	-	Lokaler Port wird vom OS ausgewählt
+	-	remote Port ist bei Browsern, sofern nicht näher in Adresse angegeben, Port 80
+-	Über diesen Socket wird nun eine TCP Verbindung aufgebaut
+	-	TCP 3 Way Handshake
+-	Über TCP Verbindung wird nun ein HTTP GET Request gesendet
+-	Es erfolgt eine HTTP Response mit Code 200 (google sollte OK zurückliefern)
+-	in HTTP Response sind nun die anzuzeigenden HTML Daten
+	-	Sofern weitere Dokumente wie Bilder eingebunden -> neue TCP Verbindung zu jeder Bildquelle
+-	Browser rendert Daten und zeigt diese an
+
 ---
 
 *6. Nennen Sie* ***zwei*** *Technologien die von Web Services verwendet werden! Erläutern Sie kurz deren Aufgabe.*
+
+-	JSON = Datenaustausche zwischen Web-Services bzw. zwischen Server (HTTP Server) und Client (JavaScript auf Seite)
+-	AJAX = Asynchroner HTTP Request, Seite muss im Browser nicht neu geladen werden sondern bezieht sich Daten aus XML oder JSON Datenquelle
+-	XML = Datenaustauschformat, viel Overhead
+-	SOAP = XML basiertes Protokoll zum Datenaustausch und Remote Procedure Call
 
 ---
 
